@@ -28,7 +28,6 @@ running a stable release — not the bleeding edge.
    - `%streamer_oauthtoken` — Twitch OAuth token for chat
    - `%clientid` — your Twitch application client ID
    - `%spot_cl` / `%spot_sec` — Spotify application credentials
-   - `$yapi` — YouTube Data API key (for song requests)
    - `%obspass` — OBS WebSocket password
 5. The bot reads and writes its own SQLite database (`test2.sqlite`, also never
    committed). Database setup helpers live in `SqliteUserDB-Alias.mrc`.
