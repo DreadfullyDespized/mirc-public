@@ -17,6 +17,6 @@
 Content arrives only from a named version tag on the private `mirc` repo via the sync process (`sync_public.py`). No direct feature PRs to this repo. Humans merge.
 
 ## Repo notes
-Synced from the private mirc repo via `sync_public.py`; see Sync risk. Visibility: public.
+Synced from the private mirc repo via `sync_public.py`; see Sync risk in #1. Visibility: public.
 
 Images committed to this repo must be inside a password-protected archive.
