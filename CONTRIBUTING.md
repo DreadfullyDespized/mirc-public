@@ -16,9 +16,9 @@ Outside issues and PRs are welcome on mirc-public. This repo is **release-only**
 7. After merge: confirm the tracking issue is updated and post-merge CI/deploy passed; update the tracking card with PR link + evidence.
 
 ## Releases
-Content arrives only from a named version tag on the private `mirc` repo via the sync process (`sync_public.py`). No direct feature merges to this repo. Humans merge.
+Content arrives only from a named version tag (`v*`) on the private `mirc` repo, via the tag-publish GitHub Actions workflow tracked in DreadfullyDespized/mirc#42, which opens a `release/<tag>` PR here. No direct feature merges to this repo. Humans merge.
 
 ## Repo notes
-Synced from the private mirc repo via `sync_public.py`; see Sync risk in #1. Visibility: public.
+Published from the private mirc repo by the tag-publish workflow (mirc#42); `CONTRIBUTING.md` and `README.md` here are protected and never overwritten by a publish. Visibility: public.
 
 Images committed to this repo must be inside a password-protected archive.
