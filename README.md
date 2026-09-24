@@ -1,4 +1,5 @@
 # Dread's Dungeon — Twitch mIRC Bot
+**Repo label: PROD** — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Public release copy of the mIRC script set behind the **dreadfullydespized**
 Twitch channel, including **Dread's Dungeon**, the persistent chat RPG.
