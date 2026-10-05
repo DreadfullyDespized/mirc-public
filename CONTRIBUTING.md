@@ -22,3 +22,8 @@ Content arrives only from a named version tag (`v*`) on the private `mirc` repo,
 Published from the private mirc repo by the tag-publish workflow (mirc#42); `CONTRIBUTING.md` and `README.md` here are protected and never overwritten by a publish. Visibility: public.
 
 Images committed to this repo must be inside a password-protected archive.
+
+## Rules and what enforces them
+| Rule (Dread) | Enforcer | Runs |
+|---|---|---|
+| No code comments, ever, from any bot (2026-10-04). Only added lines are checked; existing comments get a separate cleanup pass | `tools/checks/no_new_comments.py`: fails a PR whose diff adds a comment in Python (tokenize-based; docstrings are not comments), mIRC, AHK, JS/TS, PowerShell, bash, HTML or CSS. Only allowlisted lines pass: a shebang on line 1, the PEP 263 encoding line, `# type: ignore[...]`, `# noqa[: code]`, `# pragma: no cover`, AHK `#` directives and PowerShell `#Requires` | `.github/workflows/no-new-comments.yml` on every PR; same command locally with `--base origin/main --head HEAD` |
