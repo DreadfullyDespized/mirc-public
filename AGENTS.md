@@ -15,7 +15,7 @@ The public, release-only copy of Dread's mIRC scripts. Content arrives only from
 ## What is NOT allowed
 
 - Direct content or feature merges here.
-- Secrets, tokens or private config.
+- Passwords or secrets in git (cleartext or otherwise documented in-repo); use env vars or a secret store.
 - Code comments in added lines.
 - Images outside a password-protected archive.
 - Pushing to `main`, force-pushing, or any bot merging a PR.
@@ -34,6 +34,7 @@ No correction-loop doc yet — follow CONTRIBUTING if present.
 
 ## Landmines
 
+- Never commit passwords/secrets → reviewers + CONTRIBUTING (no check harness on main yet)
 - Never merge feature content directly here → reviewers + CONTRIBUTING release rules
 - Never commit secrets or private config → reviewers + CONTRIBUTING
 - Never skip the Required AGENTS.md headings → reviewers (no headings CI yet)
