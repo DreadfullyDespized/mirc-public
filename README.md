@@ -1,5 +1,5 @@
 # Dread's Dungeon — Twitch mIRC Bot
-**Repo label: PROD** — see [CONTRIBUTING.md](CONTRIBUTING.md).
+**Repo label: PROD** — see [CONTRIBUTING.md](CONTRIBUTING.md). — PR only; Dread merges; bots never push to main. Source of truth: fleet skill "Repo registry (PROD vs TEST)".
 
 Public release copy of the mIRC script set behind the **dreadfullydespized**
 Twitch channel, including **Dread's Dungeon**, the persistent chat RPG.

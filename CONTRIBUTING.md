@@ -1,6 +1,6 @@
 # Contributing to mirc-public
 
-**Repo label: PROD** — `main` = PROD, release-only (human merge only).
+**Repo label: PROD** — `main` = PROD, release-only (human merge only). — PR only; Dread merges; bots never push to main. Source of truth: fleet skill "Repo registry (PROD vs TEST)".
 **Owner seat:** Rig (Stream Tools). **Fallback:** Muse on Grok Bot credit exhaustion.
 **Tracking:** Issues here (public) and the Stream board https://trello.com/b/SgrUOXfX (Bug, Working, In Production, DONE, Maybe Later); the canonical change lands in private `mirc`.
 
