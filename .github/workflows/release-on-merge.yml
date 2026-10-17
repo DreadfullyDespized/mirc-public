@@ -27,7 +27,7 @@ jobs:
           HEAD_REF: ${{ github.event.pull_request.head.ref }}
         run: |
           set -euo pipefail
-          # Derive tag from HEAD_REF (release/vX → vX); NEVER inline ${{ }} into shell
+          # Derive tag from HEAD_REF (release/vX → vX); NEVER inline GitHub expressions into shell; use env vars
           TAG="${HEAD_REF#release/}"
           # Validate before use
           if ! [[ "$TAG" =~ ^v[0-9][0-9A-Za-z.\-]*$ ]]; then
